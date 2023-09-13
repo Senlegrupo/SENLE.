@@ -1182,14 +1182,14 @@
 
 }
 
-.img-servicio-todo{
-    width: 50%;
+.img-servicio-todo {
+
     height: 100%;
 }
 
 .img-servicio-todo img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 250px;
     border-radius: 50px 0 0 50px;
     object-fit: cover;
 
@@ -1202,7 +1202,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #005158;
-padding-left: 2em;
+    padding-left: 1em;
     border-radius: 0 50px 50px 0px;
 }
 
@@ -1210,15 +1210,15 @@ padding-left: 2em;
     font-size: 15px;
     color: white(255, 255, 255);
     font-family: Myriam;
-    width: 80%;
+    width: 90%;
     color: white;
 }
 
 .texto-servicio-todo h5 {
-    width: 80%;
+    width: 90%;
     font-family: Lemonmilk;
     color: white;
-    font-size: 1VW;
+    font-size: 1vw;
 }
 
 
@@ -1338,7 +1338,7 @@ padding-left: 2em;
     font-size: 2vw;
 }
 
-#lenguadeseñas .active{
+#lenguadeseñas .active {
     background: #005158;
     color: white;
 }
@@ -1403,7 +1403,8 @@ padding-left: 2em;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -1463,7 +1464,7 @@ padding-left: 2em;
 input,
 textarea {
     background-color: #ffffff5b;
-    padding: 20px 10px;
+    padding: 15px 5px;
     margin-bottom: 55px;
     margin-right: 35px;
     border: 0;
@@ -1798,7 +1799,7 @@ textarea {
 
     .texto-servicio-todo p {
         font-size: 10px;
-        width: 80%;
+        width: 90%;
     }
 
     .texto-servicio-todo1 {
@@ -1823,6 +1824,15 @@ textarea {
         font-size: 1.5em;
     }
 
+
+
+    .popup3 .popuptext3 {
+        left: -30em;
+    }
+
+    .popup5 .popuptext5 {
+        left: 0;
+    }
 
 }
 
@@ -2100,13 +2110,13 @@ textarea {
     .general {
 
 
-        width: 600px;
+        width: 494px;
         height: 600px;
 
     }
 
     .infocontacto {
-        width: 600px;
+        width: 370px;
         height: 360px;
 
     }
@@ -2116,8 +2126,42 @@ textarea {
         font-size: 1em;
     }
 
+    #lenguadeseñas ul a {
+        font-size: 1.5em;
+    }
+
+    .texto-servicio-todo h5 {
+        font-size: 2vw;
+    }
 
 
+    .texto-servicio-todo1 h5 {
+        font-size: 2vw;
+    }
+
+
+    .popup .popuptext {
+        left: -14em;
+    }
+
+    .popup2 .popuptext2 {
+        left: -14em;
+
+    }
+
+    .popup3 .popuptext3 {
+        left: -14em;
+
+    }
+
+    .popup4 .popuptext4 {
+        left: -14em;
+
+    }
+
+    .popup5 .popuptext5 {
+        left: -10em;
+    }
 
 }
 
@@ -2146,8 +2190,81 @@ textarea {
 
     }
 
- 
+    .escribe h1 {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .escribe p {
+
+        text-align: center;
+    }
+
+    .fa-brands {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .infocontacto {
+        height: 360px;
+        width: 320px;
+    }
+
+    .general {
+        height: 580px;
+        width: 320px;
+    }
+
+    .enviar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cont h1 {
+        font-size: 1em;
+    }
+
+    .red {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    input,
+    textarea {
+        text-align: center;
+
+    }
+
+
+    .Contactologo {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+    #lenguadeseñas ul a {
+        font-size: 1em;
+    }
+
+
+    .btn-plata {
+        padding: 5px 10px;
+    }
+
+    .btn-plata1 {
+        padding: 5px 10px;
+    }
 
 
 
+    .texto-servicio-todo {
+        padding-left: 0;
+    }
+
+    .texto-servicio-todo1 {
+        padding-left: 0;
+    }
 }
