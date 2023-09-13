@@ -1,0 +1,2153 @@
+@font-face {
+    font-family: Lemonmilk;
+    src: url(./font/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: Myriam;
+    src: url(./font/Myriad.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+/* NAV */
+
+
+#generalmenu {
+    position: relative;
+    width: 100%;
+    min-height: 66px;
+    background: #005158;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    font-family: Myriam;
+}
+
+
+#generalmenu ul {
+    position: relative;
+}
+
+#generalmenu ul li {
+    position: relative;
+    float: left;
+}
+
+#generalmenu ul li a {
+    color: white;
+    padding: 5px 25px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+
+}
+
+
+
+#generalmenu ul li a:hover {
+    color: #f1860b;
+
+
+}
+
+
+
+#generalmenu ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #005158;
+    display: none;
+}
+
+
+#generalmenu ul li:hover>ul {
+    display: block;
+
+}
+
+
+
+#generalmenu ul li ul li {
+
+    position: relative;
+    width: 100%;
+    border: 1px solid rgba(0, 81, 88, 0.5);
+}
+
+
+#generalmenu ul li ul li a:hover {
+    background: #f1860b;
+    color: white;
+    border-radius: 50px;
+}
+
+
+
+#generalmenu ul li ul li ul {
+    top: 0;
+    left: 200px;
+}
+
+
+
+.gif {
+    width: 200px;
+    height: 200px;
+
+
+}
+
+
+
+
+
+.senlelogo img {
+    width: 50px;
+    transition: all 0.3s;
+}
+
+.senlelogo img:hover {
+    transform: scale(1.2);
+
+}
+
+
+
+
+
+
+
+.btnbutton {
+    color: white;
+    border-radius: 20px;
+    background: #f1860b;
+    display: flex;
+    gap: 2em;
+    transition: all 0.3s ease 0s;
+    font-family: Myriam;
+
+
+}
+
+
+.btnbutton a {
+    color: white;
+
+
+
+}
+
+.btnbutton a:hover {
+    border-radius: 20px;
+    color: white;
+    background: #01676e;
+    transform: scale(1.1);
+
+
+}
+
+#menu1 {
+    display: none;
+
+}
+
+#generalmenu label {
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.menucolor {
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* BANNERINICIO */
+
+
+
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.bannertexto {
+
+    width: 50%;
+
+}
+
+.bannertexto h1 {
+    font-family: Lemonmilk;
+
+    font-size: 4vw;
+    padding-bottom: 1em;
+    color: #f1860b;
+}
+
+
+
+
+.bannertexto p {
+    font-family: Myriam;
+    font-size: 1.5em;
+    width: 90%;
+    text-align: left;
+
+}
+
+.bannerfoto img {
+    width: 200px;
+    border-radius: 70px;
+    object-fit: cover;
+
+
+}
+
+.slider-box {
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.slider-box ul {
+    display: flex;
+
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+
+}
+
+.slider-box li {
+    width: 100%;
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+
+
+.slider-box img {
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+
+
+
+/* PIE */
+.piesenlelogo img {
+    width: 50px;
+    transition: all 0.3s;
+}
+
+
+
+.piesenlelogo img:hover {
+    transform: scale(1.2);
+
+}
+
+.pie ul {
+    display: flex;
+}
+
+.piemenu li:hover {
+    transform: scale(1.1);
+}
+
+
+.piemenu a {
+    color: white;
+    font-size: 700;
+    font-family: Myriam;
+}
+
+.piemenu a:hover {
+    color: #f1860b;
+    font-size: 700;
+}
+
+.piemenu li {
+    display: inline-block;
+    padding: 0 20px;
+    /* border: solid red 2px;
+ */
+}
+
+.piemenu li:hover {
+    transform: scale(1.1);
+}
+
+
+
+.pie {
+    position: relative;
+    min-height: 66px;
+    width: 100%;
+    background: #005158;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+
+.leypie {
+    background-color: #005158;
+    text-align: center;
+
+}
+
+.leypie p {
+    font-family: Myriam;
+    color: white;
+}
+
+
+.fa-brands {
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-brands:hover {
+    color: #f1860b;
+}
+
+
+
+
+
+
+
+
+
+
+/* ACERCADENOSOTROSBANNER */
+
+
+
+#acercabanner {
+
+    height: 200px;
+    background-image: url(img/PREUBAFONDO.png);
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+#acercabanner h1 {
+    text-align: center;
+    font-family: Lemonmilk;
+    font-size: 5vw;
+    color: white;
+
+}
+
+/* ACERCADENOSOTROSNUESTRAHISTORIA */
+
+#nustrahistoria {
+    display: flex;
+    padding: 5em 0 5em 0;
+    gap: 2em;
+    align-items: center;
+    padding-inline: 5em;
+}
+
+.img-texto-nustrahistoria img {
+    width: 550px;
+
+}
+
+.texto-nustrahistoria {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.texto-nustrahistoria h1 {
+    font-family: Lemonmilk;
+    font-size: 3vw;
+}
+
+
+.texto-nustrahistoria p {
+    font-family: Myriam;
+    padding-top: 2em;
+    width: 90%;
+    font-size: 1.5em;
+    text-align: left;
+
+}
+
+
+.manologo {
+    background-color: #005158;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+
+/*Ejemplo ventana pop up de video para Alejandra*/
+/*abrir popup*/
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -3em;
+
+}
+
+.popup .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+/*FIN abrir popup*/
+
+.popup2 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup2 .popuptext2 {
+
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -3em;
+
+}
+
+.popup2 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+
+.popup3 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup3 .popuptext3 {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -20em;
+
+
+}
+
+.popup3 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+
+.popup4 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup4 .popuptext4 {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -3em;
+
+}
+
+.popup4 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+
+
+.popup5 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup5 .popuptext5 {
+    visibility: hidden;
+    width: 360px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -10em;
+
+}
+
+.popup5 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+
+
+.popup6 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup6 .popuptext6 {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -10em;
+
+}
+
+.popup6 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+.popup7 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup7 .popuptext7 {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -10em;
+
+}
+
+.popup7 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+.popup8 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup8 .popuptext8 {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -10em;
+
+}
+
+.popup8 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+
+.popup9 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup9 .popuptext9 {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -10em;
+
+}
+
+.popup9 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+
+.popup10 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.popup10 .popuptext10 {
+    visibility: hidden;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: -10em;
+
+}
+
+.popup10 .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+}
+
+/* ACERCADENOSOTROSQUIENENESSOMOS */
+
+#quienessomos {
+    display: flex;
+    align-items: center;
+    padding: 5em 0 5em 0;
+
+    justify-content: space-around;
+}
+
+
+
+#quienessomos h1 {
+    font-family: Lemonmilk;
+    font-size: 4em;
+}
+
+
+
+/* ACERCADENOSOTROSMISION */
+
+
+#mision {
+    display: flex;
+    padding: 5em 0 5em 0;
+    gap: 2em;
+    align-items: center;
+    padding-inline: 5em;
+
+
+}
+
+
+
+
+.img-mision img {
+    width: 550px;
+
+}
+
+.text-mision {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.text-mision h1 {
+    font-family: Lemonmilk;
+    font-size: 4em;
+
+}
+
+
+
+.text-mision p {
+
+    font-family: Myriam;
+    padding-top: 2em;
+    width: 90%;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.manologo1 {
+    background-color: #f1860b;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+/* ACERCADENOSOTROSVISION */
+
+
+#vision {
+    display: flex;
+    padding: 5em 0 5em 0;
+    gap: 2em;
+    align-items: center;
+    padding-inline: 5em;
+
+
+}
+
+
+
+.img-vision img {
+    width: 550px;
+
+}
+
+
+.text-vision {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.text-vision h1 {
+    font-family: Lemonmilk;
+    font-size: 4em;
+
+}
+
+.text-vision p {
+    font-family: Myriam;
+    padding-top: 2em;
+    text-align: left;
+    font-size: 1.5em;
+    width: 90%;
+
+}
+
+
+
+.manologo2 {
+    background-color: #005158;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ACERCADENOSOTROSOBJETIVO */
+
+#objetivo {
+    display: flex;
+    padding: 5em 0 5em 0;
+    gap: 2em;
+    align-items: center;
+    padding-inline: 5em
+}
+
+
+.img-objetivo img {
+    width: 550px;
+
+}
+
+.text-objetivo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-objetivo h1 {
+    font-family: Lemonmilk;
+    font-size: 4em;
+
+}
+
+.text-objetivo p {
+    font-family: Myriam;
+    padding-top: 2em;
+    width: 90%;
+    text-align: left;
+    font-size: 1.5em;
+
+}
+
+.manologo3 {
+    background-color: #f1860b;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* ACERCADENOSOTROSEQUIPO */
+
+
+#equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 15em 0;*/
+}
+
+
+.equipotexto h1 {
+    font-family: Lemonmilk;
+    padding-top: 2em;
+    font-size: 4em;
+    text-align: center;
+}
+
+.grupo {
+    padding-top: 6em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6em;
+    width: 70%;
+
+}
+
+
+.grupo h1 {
+    font-family: Lemonmilk;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.grupo p {
+    color: white;
+    font-family: Myriam;
+    padding: 2em;
+    text-align: left;
+
+}
+
+
+
+
+.avatar {
+    width: 120px;
+
+    display: flex;
+    margin-top: -4em;
+    margin-left: 5em;
+
+}
+
+
+
+.mano1 {
+    background-color: #005158;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7em;
+    margin-top: 2em;
+}
+
+
+.mano2 {
+    background-color: #f1860b;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7em;
+    margin-top: 3.1em;
+}
+
+.mano3 {
+    background-color: #005158;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7em;
+    margin-top: -0.4em;
+}
+
+.mano4 {
+    background-color: #f1860b;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7em;
+    margin-top: 2em;
+}
+
+.mano5 {
+    background-color: #005158;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7em;
+    margin-top: 5.5em;
+}
+
+.mano6 {
+    background-color: #f1860b;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7em;
+    margin-top: 4.3em;
+}
+
+.fa-solid {
+    font-size: 2.5em;
+    color: white;
+}
+
+
+
+
+.Aleja {
+    background-color: #f1860b;
+    width: 300px;
+    height: 400px;
+
+    border-radius: 70px;
+}
+
+.Tat {
+    background-color: #005158;
+    width: 300px;
+    height: 400px;
+
+    border-radius: 70px;
+}
+
+.Day {
+    background-color: #f1860b;
+    width: 300px;
+    height: 400px;
+
+    border-radius: 70px;
+}
+
+.Dan {
+    background-color: #005158;
+    width: 300px;
+    height: 400px;
+
+    border-radius: 70px;
+}
+
+.Sebas {
+    background-color: #f1860b;
+    width: 300px;
+    height: 400px;
+
+    border-radius: 70px;
+}
+
+.Brian {
+    background-color: #005158;
+    width: 300px;
+    height: 400px;
+
+    border-radius: 70px;
+}
+
+
+
+
+/* SERVICIO */
+
+
+
+
+#SERVICIO {
+    display: flex;
+    padding: 5em 0 5em 0;
+    gap: 2em;
+    align-items: center;
+    padding-inline: 5em;
+}
+
+
+.text-servicio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.text-servicio h1 {
+    font-family: Lemonmilk;
+    font-size: 4em;
+    width: 90%;
+
+}
+
+.text-servicio h6 {
+    font-family: Lemonmilk;
+    padding-top: 1em;
+    font-size: 2em;
+    width: 90%;
+
+
+}
+
+
+
+.text-servicio p {
+    font-family: Myriam;
+    padding-top: 2em;
+    width: 90%;
+    font-size: 1.5em;
+    text-align: left;
+
+
+}
+
+
+
+.manologo4 {
+    background-color: #005158;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+
+}
+
+
+#section-elementos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    border-radius: 50px;
+
+
+}
+
+.img-servicio img {
+    width: 580px;
+    filter: drop-shadow(4px 6px 12px #f1860b);
+    border-radius: 50px;
+
+}
+
+
+
+
+
+.elemento-servicio {
+    filter: drop-shadow(4px 6px 12px black);
+    display: flex;
+    width: 45%;
+    height: 250px;
+
+}
+
+.img-servicio-todo{
+    width: 50%;
+    height: 100%;
+}
+
+.img-servicio-todo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 0 0 50px;
+    object-fit: cover;
+
+}
+
+
+.texto-servicio-todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #005158;
+padding-left: 2em;
+    border-radius: 0 50px 50px 0px;
+}
+
+.texto-servicio-todo p {
+    font-size: 15px;
+    color: white(255, 255, 255);
+    font-family: Myriam;
+    width: 80%;
+    color: white;
+}
+
+.texto-servicio-todo h5 {
+    width: 80%;
+    font-family: Lemonmilk;
+    color: white;
+    font-size: 1VW;
+}
+
+
+.texto-servicio-todo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f1860b;
+    padding-left: 2em;
+    border-radius: 0 50px 50px 0px;
+}
+
+.texto-servicio-todo1 p {
+    font-size: 15px;
+    color: white;
+    font-family: Myriam;
+    width: 90%;
+}
+
+.texto-servicio-todo1 h5 {
+    font-family: Lemonmilk;
+    color: white;
+    width: 90%;
+    font-size: 1vw;
+}
+
+
+
+.btn-plata1 {
+    color: white;
+    padding: 9px 25px;
+    background-color: #005158;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-plata1 a {
+    color: white;
+}
+
+
+.btn-plata1:hover {
+
+    background-color: #00373b;
+    transform: scale(1.1);
+
+
+}
+
+
+.btn-plata {
+    color: white;
+    padding: 9px 25px;
+    background-color: #f1860b;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-plata:hover {
+
+    background-color: #aa5e08;
+    transform: scale(1.1);
+
+
+}
+
+
+
+
+
+
+
+
+/* LENGUADESEÑAS */
+
+
+
+#lenguadeseñas {
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+#lenguadeseñas h1 {
+    font-family: Lemonmilk;
+    text-align: center;
+    padding-bottom: 0.5em;
+    color: #f1860b;
+    text-shadow: 0 5px 10px rgba(0, 81, 88, 0.5);
+    font-size: 5vw;
+}
+
+
+#lenguadeseñas ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 3em;
+
+    height: 75px;
+}
+
+
+#lenguadeseñas li {
+    font-family: Myriam;
+    background: #f1860b;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+}
+
+#lenguadeseñas ul a {
+    font-family: Myriam;
+    color: white;
+    font-size: 2vw;
+}
+
+#lenguadeseñas .active{
+    background: #005158;
+    color: white;
+}
+
+
+.porfoliogif {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+
+
+}
+
+.porfoliogif img {
+    width: 100%;
+
+}
+
+
+.porfoliogif video {
+    width: 100%;
+
+}
+
+
+
+.porfoliogif .vocabulario {
+    box-shadow: 0 5px 10px rgba(0, 81, 88, 3);
+    border-radius: 5px;
+    background: #005158;
+    text-align: center;
+    padding: 30px 20px;
+
+}
+
+
+.porfoliogif .btn {
+    background-color: #f1860b;
+    color: aliceblue;
+    border-radius: 17px;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+.porfoliogif .vocabulario:hover {
+    box-shadow: 0 5px 10px rgba(241, 134, 13, 3);
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+/* CONTACTO */
+
+#contacto {
+    background-image: url(img/azulfoto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+
+}
+
+
+.general-con {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.infocontacto {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #00373b;
+    filter: drop-shadow(4px 6px 12px black);
+    text-align: center;
+
+}
+
+
+
+
+.enviar {
+    display: flex;
+    flex-direction: row;
+}
+
+.logocontacto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.escribe h1 {
+    font-size: 4vw;
+    padding-bottom: 16px;
+    color: white;
+    font-family: Lemonmilk;
+}
+
+.escribe p {
+    font-family: Myriam;
+    font-size: 2em;
+    padding-bottom: 16px;
+    color: white;
+}
+
+.escribe .fa-brands {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+input,
+textarea {
+    background-color: #ffffff5b;
+    padding: 20px 10px;
+    margin-bottom: 55px;
+    margin-right: 35px;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+
+::placeholder {
+    font-family: Myriam;
+    color: white;
+}
+
+
+.btnenviar button {
+    color: white;
+    padding: 9px 45px;
+    background-color: #00373b;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    font-family: Myriam;
+
+}
+
+
+
+.infocontacto .fa-solid {
+    font-size: 2em;
+    color: white;
+}
+
+
+.ubi {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.ubi p {
+    font-family: Myriam;
+    color: white;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.email p {
+    font-family: Myriam;
+    color: white;
+}
+
+
+.tel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.tel p {
+    font-family: Myriam;
+    color: white;
+}
+
+
+
+.btnenviar button:hover {
+
+    background-color: #aa5e08;
+    transform: scale(1.1);
+
+
+}
+
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 700px;
+    height: 750px;
+    background-color: #f1860b;
+}
+
+
+.cont h1 {
+    color: white;
+    font-size: 2vw;
+    font-family: Lemonmilk;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    /* nav */
+    /* .menulista {
+        padding-right: 3em;
+
+    } */
+
+    /* banner */
+    .bannertexto h1 {
+        font-size: 2em;
+
+    }
+
+    .bannertexto p {
+
+        font-size: 1.3em;
+
+    }
+
+
+
+
+    /* Aerca de nosotros */
+
+    #acercabanner h1 {
+        /* font-size: 4em;*/
+    }
+
+
+    #nustrahistoria {
+        align-items: center;
+        padding-top: 5em;
+        padding-inline: 2em;
+    }
+
+
+
+    .texto-nustrahistoria h1 {
+        /*font-size: 1.5em;*/
+
+    }
+
+
+
+    .texto-nustrahistoria p {
+
+        padding-top: 1em;
+        width: 80%;
+        font-size: 1.3em;
+
+    }
+
+
+    .img-texto-nustrahistoria img {
+        width: 400px;
+
+    }
+
+
+    .manologo {
+        height: 40px;
+        width: 40px;
+        font-size: 10px;
+
+    }
+
+    #quienessomos {
+        align-items: center;
+
+    }
+
+    #quienessomos h1 {
+        font-size: 2em;
+    }
+
+
+    .img-video img {
+        width: 70%;
+    }
+
+
+    #mision {
+        align-items: center;
+        padding-top: 5em;
+        padding-inline: 2em;
+    }
+
+    .img-mision img {
+        width: 400px;
+
+    }
+
+    .text-mision h1 {
+
+        font-size: 2em;
+
+    }
+
+
+    .text-mision p {
+
+        padding-top: 1em;
+        width: 80%;
+        font-size: 1.3em;
+
+    }
+
+    .manologo1 {
+
+        height: 40px;
+        width: 40px;
+
+        font-size: 10px;
+    }
+
+
+    #vision {
+        align-items: center;
+        padding-top: 5em;
+        padding-inline: 2em;
+
+    }
+
+
+    .img-vision img {
+        width: 400px;
+
+    }
+
+    .text-vision h1 {
+        font-size: 2em;
+    }
+
+
+    .text-vision p {
+        padding-top: 1em;
+        width: 80%;
+        font-size: 1.3em;
+    }
+
+    .manologo2 {
+
+        height: 40px;
+        width: 40px;
+        font-size: 10px;
+
+    }
+
+    #objetivo {
+        align-items: center;
+        padding-top: 5em;
+        padding-inline: 2em;
+
+
+    }
+
+
+    .img-objetivo img {
+        width: 400px;
+
+    }
+
+    .text-objetivo h1 {
+        font-size: 2em;
+
+    }
+
+
+    .text-objetivo p {
+        padding-top: 1em;
+        width: 80%;
+        font-size: 1.3em;
+
+    }
+
+
+    .manologo3 {
+        font-size: 10px;
+        height: 40px;
+        width: 40px;
+
+    }
+
+
+    .grupo p {
+        font-size: 1.3;
+    }
+
+    .equipotexto h1 {
+
+
+        font-size: 2em;
+
+    }
+
+
+    #SERVICIO {
+
+        align-items: center;
+        padding-top: 5em;
+        padding-inline: 2em;
+
+
+    }
+
+
+    .text-servicio h1 {
+
+        font-size: 2em;
+
+
+    }
+
+
+    .text-servicio h6 {
+        font-size: 1em;
+    }
+
+    .text-servicio p {
+        font-size: 1.3em;
+    }
+
+    .img-servicio img {
+        width: 480px;
+
+    }
+
+
+
+    .texto-servicio-todo p {
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .texto-servicio-todo1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #f1860b;
+        padding-left: 1em;
+
+    }
+
+
+    .texto-servicio-todo1 p {
+        font-size: 10px;
+    }
+
+
+
+
+    .escribe p {
+        font-size: 1.5em;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .pie {
+        justify-content: space-between;
+        padding: 5px 40px;
+        flex-direction: column;
+    }
+
+    .pie ul {
+        flex-direction: column;
+
+        gap: 2em;
+    }
+
+    #generalmenu {
+        justify-content: space-between;
+        padding: 5px 40px;
+
+    }
+
+    #generalmenu #menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background: #00373b;
+        display: none;
+    }
+
+
+
+
+
+    #generalmenu #menu ul li {
+        width: 100%;
+    }
+
+
+    #generalmenu #menu ul li ul {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    #generalmenu #menu ul li ul li ul {
+        top: 0;
+        left: 0;
+    }
+
+    #generalmenu #menu ul li:hover ul li {
+        background: #01676e;
+    }
+
+
+
+    .btnbutton {
+
+        background: none;
+
+
+    }
+
+
+
+    .btnbutton a:hover {
+        background: none;
+
+
+    }
+
+    #generalmenu label {
+        display: initial;
+    }
+
+
+
+    #menu1:checked~#menu {
+        display: initial;
+    }
+
+
+
+
+
+
+
+    #banner {
+
+        flex-direction: column;
+    }
+
+    .slider-box {
+        width: 70%;
+        height: auto;
+        margin: 50px auto 0;
+        overflow: hidden;
+
+    }
+
+    .slider-box img {
+        width: 432px;
+
+    }
+
+
+    .bannertexto {
+        width: 100%;
+        padding-bottom: 6em;
+
+    }
+
+    .bannertexto h1 {
+        font-size: 2em;
+        text-align: center;
+
+    }
+
+
+
+    .bannertexto p {
+        font-size: 1em;
+        text-align: justify;
+        padding-left: 2em;
+    }
+
+
+    .slider-box {
+        margin-top: -10em;
+    }
+
+
+
+    #acercabanner h1 {
+        /*font-size: 3em;*/
+
+    }
+
+    #nustrahistoria {
+        flex-direction: column;
+        justify-self: center;
+    }
+
+
+    .texto-nustrahistoria h1 {
+        padding-top: 2em;
+        /*font-size: 1.5em;*/
+
+
+    }
+
+    .manologo {}
+
+    #quienessomos {
+        flex-direction: column;
+
+    }
+
+    #mision {
+
+        flex-direction: column;
+    }
+
+    #quienessomos h1 {
+        font-size: 1.5em;
+    }
+
+
+    .manologo1 {}
+
+    #vision {
+
+        flex-direction: column;
+    }
+
+    .text-vision h1 {
+        font-size: 1.5em;
+    }
+
+
+
+    #objetivo {
+        flex-direction: column;
+    }
+
+    .text-objetivo h1 {
+        font-size: 1.5em;
+
+    }
+
+
+
+
+    .equipotexto h1 {
+        font-size: 1.5em;
+    }
+
+
+    .mano1 {
+
+        margin-top: 34px;
+    }
+
+
+    .mano2 {
+
+        margin-top: 3.5em;
+    }
+
+    .mano3 {
+
+        margin-top: -0.2em;
+    }
+
+    .mano4 {
+
+        margin-top: 2em;
+    }
+
+    .mano5 {
+
+        margin-top: 6.800000000000001em;
+    }
+
+    .mano6 {
+
+        margin-top: 4.5em;
+    }
+
+
+    #SERVICIO {
+        padding-top: 4em;
+        flex-direction: column;
+    }
+
+    .text-servicio {
+        text-align: center;
+        padding-bottom: 2em;
+    }
+
+
+
+    .img-servicio img {
+        width: 85vw;
+    }
+
+    #section-elementos {
+
+        flex-direction: column;
+    }
+
+
+    .elemento-servicio {
+        width: 80%;
+    }
+
+    #lenguadeseñas ul {
+
+        padding-top: 9em;
+        padding-bottom: 9em;
+        gap: 1em;
+        flex-direction: column;
+    }
+
+
+    .general-con {
+        flex-direction: column;
+
+    }
+
+    .general {
+
+
+        width: 600px;
+        height: 600px;
+
+    }
+
+    .infocontacto {
+        width: 600px;
+        height: 360px;
+
+    }
+
+
+    .escribe p {
+        font-size: 1em;
+    }
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 567px) {
+
+    .bannertexto h1 {
+        font-size: 2em;
+    }
+
+    .bannertexto p {
+        text-align: justify;
+    }
+
+    .slider-box {
+        width: 80%;
+
+
+    }
+
+    .slider-box img {
+        width: 326px;
+
+    }
+
+ 
+
+
+
+}
