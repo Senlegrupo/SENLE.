@@ -1287,6 +1287,9 @@
     transition: all 0.3s ease 0s;
 }
 
+.btn-plata a {
+    color: white;
+}
 .btn-plata:hover {
 
     background-color: #aa5e08;
