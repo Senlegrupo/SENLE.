@@ -428,6 +428,13 @@
     padding-inline: 5em;
 }
 
+
+#nustrahistoria h1 {
+    font-family: Lemonmilk;
+    font-size: 2.5em;
+}
+
+
 .img-texto-nustrahistoria img {
     width: 550px;
 
@@ -440,10 +447,7 @@
     width: 100%;
 }
 
-.texto-nustrahistoria h1 {
-    font-family: Lemonmilk;
-    font-size: 3vw;
-}
+
 
 
 .texto-nustrahistoria p {
@@ -717,7 +721,7 @@
 
 #quienessomos h1 {
     font-family: Lemonmilk;
-    font-size: 4em;
+    font-size: 2.5em;
 }
 
 
@@ -753,7 +757,7 @@
 
 .text-mision h1 {
     font-family: Lemonmilk;
-    font-size: 4em;
+    font-size: 2.5em;
 
 }
 
@@ -812,7 +816,7 @@
 
 .text-vision h1 {
     font-family: Lemonmilk;
-    font-size: 4em;
+    font-size: 2.5em;
 
 }
 
@@ -863,7 +867,7 @@
 
 .text-objetivo h1 {
     font-family: Lemonmilk;
-    font-size: 4em;
+    font-size: 2.5em;
 
 }
 
@@ -905,7 +909,7 @@
 .equipotexto h1 {
     font-family: Lemonmilk;
     padding-top: 2em;
-    font-size: 4em;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -1604,10 +1608,8 @@ textarea {
     }
 
 
-
-    .texto-nustrahistoria h1 {
-        /*font-size: 1.5em;*/
-
+    #nustrahistoria h1 {
+        font-size: 2em;
     }
 
 
@@ -1650,10 +1652,13 @@ textarea {
 
 
     #mision {
+       
         align-items: center;
         padding-top: 5em;
         padding-inline: 2em;
     }
+
+
 
     .img-mision img {
         width: 400px;
@@ -1980,12 +1985,13 @@ textarea {
         justify-self: center;
     }
 
+    #nustrahistoria h1 {
+       
+        font-size: 1.5em;
+    }
 
     .texto-nustrahistoria h1 {
         padding-top: 2em;
-        /*font-size: 1.5em;*/
-
-
     }
 
     .manologo {}
@@ -2000,6 +2006,12 @@ textarea {
         flex-direction: column;
     }
 
+
+    .text-mision h1 {
+
+        font-size: 1.5em;
+
+    }
     #quienessomos h1 {
         font-size: 1.5em;
     }
