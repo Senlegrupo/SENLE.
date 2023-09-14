@@ -724,7 +724,10 @@
     font-size: 2.5em;
 }
 
-
+.img-video video{
+    width: 380px;
+    height: 260px;
+}
 
 /* ACERCADENOSOTROSMISION */
 
