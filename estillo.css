@@ -1882,7 +1882,7 @@ textarea {
     }
 
     #prueba:checked ~ .menulista{
-      
+        border: solid red 2px;
         display: block;  
        
      }
