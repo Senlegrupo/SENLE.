@@ -23,6 +23,15 @@
 /* NAV */
 
 
+#prueba{
+    display:none;
+  }
+  .prueba2{
+    display:none;
+    
+  }
+
+
 #generalmenu {
     position: relative;
     width: 100%;
@@ -1348,7 +1357,7 @@
     font-size: 2vw;
 }
 
-#lenguadeseñas .active {
+#lenguadeseñas li:hover {
     background: #005158;
     color: white;
 }
@@ -1863,25 +1872,47 @@ textarea {
         gap: 2em;
     }
 
-    #generalmenu {
+    #prueba{
+        display:none;
+      }
+
+    .prueba2{
+      display:block;
+      
+    }
+
+    #prueba:checked ~ .menulista{
+        border: solid red 2px;
+        display: block;  
+       
+     }
+
+
+     #menu {
+        flex-direction: column;
         justify-content: space-between;
         padding: 5px 40px;
 
     }
 
-    #generalmenu #menu {
+    #menu .menulista {
+        align-items: center;
         position: absolute;
         top: 100%;
         right: 0;
-        left: 0;
+        width: 100%;
         background: #00373b;
         display: none;
     }
+    #menu .menulista a{
 
+        align-items: center;
+    }
+     
 
-
-
-
+    #generalmenu{
+        justify-content: space-between;
+    }
     #generalmenu #menu ul li {
         width: 100%;
     }
